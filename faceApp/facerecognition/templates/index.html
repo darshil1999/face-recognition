@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+{% load static %}
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,5 +12,11 @@
 <body>
     <h1>Welcom to Face Recognition</h1>
     <p>You are rendeting index.html page right now.</p>
+
+    <img src="/static/logo.png" alt="Logo is missing">
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem modi aspernatur repellendus accusamus facilis rem eos asperiores voluptatem! Porro, alias eius! Necessitatibus beatae voluptatem quas est consequatur commodi cumque odio.</p>
+
+    <img src="{% static 'logo.png' %}" alt="Logo is missing">
 </body>
 </html>
